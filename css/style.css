@@ -1,0 +1,145 @@
+.box
+    {
+        width: 100%;
+        display: flex;
+        flex-wrap:wrap;
+    }
+.header-size
+    {
+      width: 100%;
+      background-color: #01bfcf;
+    }
+.header-style
+    {
+      font-family: 'Fugaz One', cursive;
+      color: white;
+      padding: 20px 30px;
+    }
+
+.header-logo
+    {
+      width: 80px;
+      height: 80px;
+      padding-top: 50px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 80px;
+    }
+
+.img-logo
+  {
+     border: 5px solid #01bfcf;
+     border-radius: 50%;
+  }
+
+  .nav-style
+  {
+    justify-content:flex-start;
+  	border-bottom: 4px solid #01bfcf;
+    margin-top: 10px;
+  	margin-bottom: 10px;
+    padding-left: 200px;
+  }
+
+  .nav-list
+  {
+  	display: flex;
+  	align-items: center;
+      justify-content: center;
+      list-style-type: none;
+  	padding: 0;
+  }
+
+  .nav-item .text-link
+ {
+   font-family: 'Fugaz One', cursive;
+	font-size: 1.2em;
+    color: #00a6b5;
+    padding: 10px 10px;
+}
+
+.nav-item .text-link:hover
+{
+    background-color: #7ef2fc;
+}
+.img-main
+{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+ }
+
+.line-break
+{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    width: 100%;
+    border-color: #01bfcf;
+  }
+.article-style
+{
+  font-family: 'Fugaz One', cursive;
+  color: #039ba8;
+}
+
+footer {
+  margin: 0 auto;
+  width: 800px;
+}
+
+header
+{
+  margin: 0 auto;
+  width: 800px;
+}
+
+
+.img-section
+ {
+  max-width: 100%;
+  float: left;
+  margin-right: 10px;
+  padding: 20px 20px 20px 20px;
+
+}
+.card
+{
+  height:530px;
+  overflow:auto;
+  margin: 20%;
+
+}
+
+.img-section:last-of-type
+{
+  margin-right: 0;
+}
+.article-section
+{
+
+	width: 100%;
+	text-align: justify;
+	margin: 10px;
+	padding: 10px;
+	display: inline-flex;
+	flex-wrap: wrap;
+	flex: 1;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+img.footer-img
+{
+  width: 42px;
+  height: 42px;
+  border: 0;
+}
